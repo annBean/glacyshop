@@ -1,0 +1,122 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #849D8F;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 150px;
+    margin-right: 25px;
+    height: 64px;
+}
+
+.header-nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav_list li {
+    margin-right: 25px;
+
+}
+
+.header-nav_list a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-right {
+    margin-left: auto;
+}
+
+.header-right ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.header-right li {
+    border-radius: 16px;
+    background-color:rgba(255,255,255,.2);
+    margin-left: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.header-right li:nth-child(1) {
+    width: 32px;
+    height: 32px;
+}
+
+.header-right li:nth-child(2) {
+    width: 92px;
+}
+
+.header-right li:nth-child(3) {
+    width: 117px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.schodule {
+    display: flex;
+}   
+
+.schodule p {
+    margin-left: auto;
+    width: 170px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.phone-number {
+    display: block;
+    font-size: 22px;
+}
+
+.btn {
+    display: inline block;
+    padding: 10px 20px;
+    background-color: #ee6340;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.ice-creams_btn {
+    font-size: 60px;
+    text-shadow: rgb(53, 53, 53) 0px 0px 10px;
+    box-shadow: rgb(53, 53, 53) 0px 5px 5px;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+    
